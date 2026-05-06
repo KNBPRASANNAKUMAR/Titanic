@@ -1,20 +1,24 @@
 📌 Project Overview
 
-This project analyzes COVID-19 data using Python libraries such as Pandas, Matplotlib, and Seaborn.
-The dataset is collected from the publicly available Our World in Data COVID-19 repository.
+The Titanic dataset is one of the most popular beginner-friendly datasets in Data Science and Machine Learning.
 
-The project focuses on:
+This project performs:
 
-Data cleaning and preprocessing
+Data Cleaning
 Exploratory Data Analysis (EDA)
-Trend analysis
-Country-wise comparisons
-Vaccination analysis
-Data visualization
+Missing Value Handling
+Survival Analysis
+Feature Relationships
+Data Visualization
+
+The main goal is to discover which factors affected passenger survival during the Titanic disaster.
 
 📂 Dataset Source
+Dataset: Titanic Dataset by Kaggle
 
-Dataset: COVID-19 Dataset by Our World in Data
+Files Used:
+train.csv
+test.csv
 
 🛠️ Technologies Used
 Python
@@ -25,37 +29,42 @@ Seaborn
 
 📊 Features Implemented
 1. Data Cleaning
-Removed missing/null values
-Filtered unnecessary columns
-Converted date columns into datetime format
+Handling missing values
+Removing unnecessary columns
+Converting categorical values
+Data type correction
 
 2. Exploratory Data Analysis
-Total cases over time
-Total deaths over time
-Daily new cases analysis
-Daily death trends
+Passenger survival distribution
+Gender-wise survival analysis
+Passenger class analysis
+Age distribution analysis
+Fare distribution analysis
 
-3. Country-wise Analysis
-Compare countries based on:
-Total cases
-Total deaths
-Vaccination rate
-Recovery trends
+3. Feature Relationship Analysis
+Survival vs Gender
+Survival vs Passenger Class
+Survival vs Age
+Survival vs Fare
+Correlation Heatmap
 
-4. Visualizations
-Line Charts
+4. Data Visualization
+Count Plots
 Bar Charts
+Histograms
 Heatmaps
-Correlation Matrix
-Moving Average Trends
+Pie Charts
+Box Plots
 
-📈 Sample Visualizations
+📈 Sample Analysis Performed
 
-Global COVID-19 Cases Trend
-Shows growth of confirmed cases over time.
-Top Countries by Total Cases
-Displays countries most affected by COVID-19.
-Vaccination Progress
-Tracks vaccination rollout across countries.
-Death Rate Analysis
-Compares mortality trends among countries.
+Survival Rate Analysis
+Compared survived vs non-survived passengers.
+Gender-based Survival
+Female passengers had a higher survival rate.
+Passenger Class Analysis
+First-class passengers survived more frequently than third-class passengers.
+Age Distribution
+Younger passengers showed different survival trends.
+Fare Analysis
+Higher ticket fares often correlated with higher survival rates.
